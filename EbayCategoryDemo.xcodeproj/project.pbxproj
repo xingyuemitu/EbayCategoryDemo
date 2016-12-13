@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955728F71DFFCD2800C509BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 955728F61DFFCD2800C509BA /* main.m */; };
+		955728FA1DFFCD2800C509BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 955728F91DFFCD2800C509BA /* AppDelegate.m */; };
+		955728FD1DFFCD2800C509BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955728FC1DFFCD2800C509BA /* ViewController.m */; };
+		955729001DFFCD2800C509BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955728FE1DFFCD2800C509BA /* Main.storyboard */; };
+		955729021DFFCD2800C509BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955729011DFFCD2800C509BA /* Assets.xcassets */; };
+		955729051DFFCD2800C509BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955729031DFFCD2800C509BA /* LaunchScreen.storyboard */; };
+		955729101DFFCD2800C509BA /* EbayCategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9557290F1DFFCD2800C509BA /* EbayCategoryDemoTests.m */; };
+		9557291B1DFFCD2800C509BA /* EbayCategoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9557291A1DFFCD2800C509BA /* EbayCategoryDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9557290C1DFFCD2800C509BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955728EA1DFFCD2800C509BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955728F11DFFCD2800C509BA;
+			remoteInfo = EbayCategoryDemo;
+		};
+		955729171DFFCD2800C509BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955728EA1DFFCD2800C509BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955728F11DFFCD2800C509BA;
+			remoteInfo = EbayCategoryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		955728F21DFFCD2800C509BA /* EbayCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbayCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955728F61DFFCD2800C509BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		955728F81DFFCD2800C509BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		955728F91DFFCD2800C509BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		955728FB1DFFCD2800C509BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		955728FC1DFFCD2800C509BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		955728FF1DFFCD2800C509BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		955729011DFFCD2800C509BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955729041DFFCD2800C509BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		955729061DFFCD2800C509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9557290B1DFFCD2800C509BA /* EbayCategoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbayCategoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9557290F1DFFCD2800C509BA /* EbayCategoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EbayCategoryDemoTests.m; sourceTree = "<group>"; };
+		955729111DFFCD2800C509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955729161DFFCD2800C509BA /* EbayCategoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbayCategoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9557291A1DFFCD2800C509BA /* EbayCategoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EbayCategoryDemoUITests.m; sourceTree = "<group>"; };
+		9557291C1DFFCD2800C509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955728EF1DFFCD2800C509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955729081DFFCD2800C509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955729131DFFCD2800C509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		955728E91DFFCD2800C509BA = {
+			isa = PBXGroup;
+			children = (
+				955728F41DFFCD2800C509BA /* EbayCategoryDemo */,
+				9557290E1DFFCD2800C509BA /* EbayCategoryDemoTests */,
+				955729191DFFCD2800C509BA /* EbayCategoryDemoUITests */,
+				955728F31DFFCD2800C509BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		955728F31DFFCD2800C509BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955728F21DFFCD2800C509BA /* EbayCategoryDemo.app */,
+				9557290B1DFFCD2800C509BA /* EbayCategoryDemoTests.xctest */,
+				955729161DFFCD2800C509BA /* EbayCategoryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955728F41DFFCD2800C509BA /* EbayCategoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				955728F81DFFCD2800C509BA /* AppDelegate.h */,
+				955728F91DFFCD2800C509BA /* AppDelegate.m */,
+				955728FB1DFFCD2800C509BA /* ViewController.h */,
+				955728FC1DFFCD2800C509BA /* ViewController.m */,
+				955728FE1DFFCD2800C509BA /* Main.storyboard */,
+				955729011DFFCD2800C509BA /* Assets.xcassets */,
+				955729031DFFCD2800C509BA /* LaunchScreen.storyboard */,
+				955729061DFFCD2800C509BA /* Info.plist */,
+				955728F51DFFCD2800C509BA /* Supporting Files */,
+			);
+			path = EbayCategoryDemo;
+			sourceTree = "<group>";
+		};
+		955728F51DFFCD2800C509BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				955728F61DFFCD2800C509BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9557290E1DFFCD2800C509BA /* EbayCategoryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9557290F1DFFCD2800C509BA /* EbayCategoryDemoTests.m */,
+				955729111DFFCD2800C509BA /* Info.plist */,
+			);
+			path = EbayCategoryDemoTests;
+			sourceTree = "<group>";
+		};
+		955729191DFFCD2800C509BA /* EbayCategoryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9557291A1DFFCD2800C509BA /* EbayCategoryDemoUITests.m */,
+				9557291C1DFFCD2800C509BA /* Info.plist */,
+			);
+			path = EbayCategoryDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955728F11DFFCD2800C509BA /* EbayCategoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9557291F1DFFCD2800C509BA /* Build configuration list for PBXNativeTarget "EbayCategoryDemo" */;
+			buildPhases = (
+				955728EE1DFFCD2800C509BA /* Sources */,
+				955728EF1DFFCD2800C509BA /* Frameworks */,
+				955728F01DFFCD2800C509BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EbayCategoryDemo;
+			productName = EbayCategoryDemo;
+			productReference = 955728F21DFFCD2800C509BA /* EbayCategoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9557290A1DFFCD2800C509BA /* EbayCategoryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955729221DFFCD2800C509BA /* Build configuration list for PBXNativeTarget "EbayCategoryDemoTests" */;
+			buildPhases = (
+				955729071DFFCD2800C509BA /* Sources */,
+				955729081DFFCD2800C509BA /* Frameworks */,
+				955729091DFFCD2800C509BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9557290D1DFFCD2800C509BA /* PBXTargetDependency */,
+			);
+			name = EbayCategoryDemoTests;
+			productName = EbayCategoryDemoTests;
+			productReference = 9557290B1DFFCD2800C509BA /* EbayCategoryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		955729151DFFCD2800C509BA /* EbayCategoryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955729251DFFCD2800C509BA /* Build configuration list for PBXNativeTarget "EbayCategoryDemoUITests" */;
+			buildPhases = (
+				955729121DFFCD2800C509BA /* Sources */,
+				955729131DFFCD2800C509BA /* Frameworks */,
+				955729141DFFCD2800C509BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955729181DFFCD2800C509BA /* PBXTargetDependency */,
+			);
+			name = EbayCategoryDemoUITests;
+			productName = EbayCategoryDemoUITests;
+			productReference = 955729161DFFCD2800C509BA /* EbayCategoryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955728EA1DFFCD2800C509BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = share;
+				TargetAttributes = {
+					955728F11DFFCD2800C509BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9557290A1DFFCD2800C509BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 955728F11DFFCD2800C509BA;
+					};
+					955729151DFFCD2800C509BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 955728F11DFFCD2800C509BA;
+					};
+				};
+			};
+			buildConfigurationList = 955728ED1DFFCD2800C509BA /* Build configuration list for PBXProject "EbayCategoryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 955728E91DFFCD2800C509BA;
+			productRefGroup = 955728F31DFFCD2800C509BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955728F11DFFCD2800C509BA /* EbayCategoryDemo */,
+				9557290A1DFFCD2800C509BA /* EbayCategoryDemoTests */,
+				955729151DFFCD2800C509BA /* EbayCategoryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955728F01DFFCD2800C509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955729051DFFCD2800C509BA /* LaunchScreen.storyboard in Resources */,
+				955729021DFFCD2800C509BA /* Assets.xcassets in Resources */,
+				955729001DFFCD2800C509BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955729091DFFCD2800C509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955729141DFFCD2800C509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955728EE1DFFCD2800C509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955728FD1DFFCD2800C509BA /* ViewController.m in Sources */,
+				955728FA1DFFCD2800C509BA /* AppDelegate.m in Sources */,
+				955728F71DFFCD2800C509BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955729071DFFCD2800C509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955729101DFFCD2800C509BA /* EbayCategoryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955729121DFFCD2800C509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9557291B1DFFCD2800C509BA /* EbayCategoryDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9557290D1DFFCD2800C509BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955728F11DFFCD2800C509BA /* EbayCategoryDemo */;
+			targetProxy = 9557290C1DFFCD2800C509BA /* PBXContainerItemProxy */;
+		};
+		955729181DFFCD2800C509BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955728F11DFFCD2800C509BA /* EbayCategoryDemo */;
+			targetProxy = 955729171DFFCD2800C509BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		955728FE1DFFCD2800C509BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955728FF1DFFCD2800C509BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		955729031DFFCD2800C509BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955729041DFFCD2800C509BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9557291D1DFFCD2800C509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9557291E1DFFCD2800C509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955729201DFFCD2800C509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EbayCategoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lomeway.EbayCategoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		955729211DFFCD2800C509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EbayCategoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lomeway.EbayCategoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		955729231DFFCD2800C509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EbayCategoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lomeway.EbayCategoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EbayCategoryDemo.app/EbayCategoryDemo";
+			};
+			name = Debug;
+		};
+		955729241DFFCD2800C509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EbayCategoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lomeway.EbayCategoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EbayCategoryDemo.app/EbayCategoryDemo";
+			};
+			name = Release;
+		};
+		955729261DFFCD2800C509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EbayCategoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lomeway.EbayCategoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EbayCategoryDemo;
+			};
+			name = Debug;
+		};
+		955729271DFFCD2800C509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EbayCategoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lomeway.EbayCategoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EbayCategoryDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955728ED1DFFCD2800C509BA /* Build configuration list for PBXProject "EbayCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9557291D1DFFCD2800C509BA /* Debug */,
+				9557291E1DFFCD2800C509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9557291F1DFFCD2800C509BA /* Build configuration list for PBXNativeTarget "EbayCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955729201DFFCD2800C509BA /* Debug */,
+				955729211DFFCD2800C509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		955729221DFFCD2800C509BA /* Build configuration list for PBXNativeTarget "EbayCategoryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955729231DFFCD2800C509BA /* Debug */,
+				955729241DFFCD2800C509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		955729251DFFCD2800C509BA /* Build configuration list for PBXNativeTarget "EbayCategoryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955729261DFFCD2800C509BA /* Debug */,
+				955729271DFFCD2800C509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 955728EA1DFFCD2800C509BA /* Project object */;
+}
