@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CategoriesViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,24 @@
 
 @implementation AppDelegate
 
+- (UIWindow *)window {
+    if (!_window) {
+        _window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        _window.backgroundColor = [UIColor whiteColor];
+        [_window makeKeyAndVisible];
+    }
+    return _window;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[CategoriesViewController new]];
+    
+    self.window.rootViewController = nav;
+    
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
